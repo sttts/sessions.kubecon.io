@@ -1,0 +1,9 @@
+package: k8s.io/kubecon
+import:
+- package: k8s.io/apimachinery
+  version: kubernetes-1.10.0
+- package: k8s.io/code-generator
+  version: kubernetes-1.10.0
+- package: k8s.io/gengo
+- package: k8s.io/client-go
+  version: v7.0.0
