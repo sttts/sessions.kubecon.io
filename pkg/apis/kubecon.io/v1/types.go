@@ -16,6 +16,16 @@ type Session struct {
 	Status SessionStatus `json:"status"`
 }
 
+// +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
+
+// SessionList is a list of Session resources
+type SessionList struct {
+	metav1.TypeMeta `json:",inline"`
+	metav1.ListMeta `json:"metadata"`
+
+	Items []Session `json:"items"`
+}
+
 type SessionType string
 
 const (
