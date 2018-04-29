@@ -1,0 +1,64 @@
+hash: f6425bec17c6525db104b955548496f9e523275120e3556a3d329380e408dd3a
+updated: 2018-04-30T00:11:57.622299728+02:00
+imports:
+- name: github.com/gogo/protobuf
+  version: c0656edd0d9eab7c66d1eb0c568f9039345796f7
+  subpackages:
+  - proto
+  - sortkeys
+- name: github.com/golang/glog
+  version: 44145f04b68cf362d9c4df2182967c2275eaefed
+- name: github.com/google/gofuzz
+  version: 44d81051d367757e1c7c6a5a86423ece9afcf63c
+- name: github.com/spf13/pflag
+  version: 4c012f6dcd9546820e378d0bdda4d8fc772cdfea
+- name: golang.org/x/net
+  version: 1c05540f6879653db88113bc4a2b70aec4bd491f
+  subpackages:
+  - html
+  - html/atom
+  - http2
+  - http2/hpack
+  - idna
+  - lex/httplex
+  - websocket
+- name: golang.org/x/text
+  version: b19bf474d317b857955b12035d2c5acb57ce8b01
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+- name: gopkg.in/inf.v0
+  version: 3887ee99ecf07df5b447e9b00d9c0b2adaa9f3e4
+- name: k8s.io/apimachinery
+  version: 302974c03f7e50f16561ba237db776ab93594ef6
+  subpackages:
+  - pkg/api/resource
+  - pkg/apis/meta/v1
+  - pkg/conversion
+  - pkg/conversion/queryparams
+  - pkg/fields
+  - pkg/labels
+  - pkg/runtime
+  - pkg/runtime/schema
+  - pkg/selection
+  - pkg/types
+  - pkg/util/errors
+  - pkg/util/intstr
+  - pkg/util/json
+  - pkg/util/net
+  - pkg/util/runtime
+  - pkg/util/sets
+  - pkg/util/validation
+  - pkg/util/validation/field
+  - pkg/util/wait
+  - pkg/watch
+  - third_party/forked/golang/reflect
+- name: k8s.io/client-go
+  version: 23781f4d6632d88e869066eaebb743857aa1ef9b
+- name: k8s.io/code-generator
+  version: 7ead8f38b01cf8653249f5af80ce7b2c8aba12e2
+- name: k8s.io/gengo
+  version: 01a732e01d00cb9a81bb0ca050d3e6d2b947927b
+testImports: []
